@@ -47,6 +47,7 @@ Although this is the first VM I’m creating for the lab, it will eventually wor
    - Password: (secure password)
 8. **SSH Access**: Enabled OpenSSH server during setup
 9. **Package Selection**: Left default for now (no extra snaps)
+10. Paused the Ubuntu syslog server VM after initial login to continue with network and service configuration later.
 
 ---
 
