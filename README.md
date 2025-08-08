@@ -13,9 +13,10 @@ This repository documents my journey in building and configuring a virtual home 
 - Share learning process publicly
 
 ## Contents
-1. [Setting up Active Directory on Windows Server](01-ad-ds-setup.md)
-2. [Joining Windows 10 Client to the Domain](02-join-win10.md)
-3. [Setting up Syslog Server on Ubuntu](03-ubuntu-syslog.md)
+1. [Setting up Syslog Server on Ubuntu](01-ubuntu-syslog.md)
+2. [Setting up Active Directory on Windows Server](02-ad-ds-setup.md)
+3. [Joining Windows 10 Client to the Domain](03-join-win10.md)
+
 
 ---
 *Created by Cian Maiden-Wood – BSc (Hons) Ethical Hacking & Cyber Security*
