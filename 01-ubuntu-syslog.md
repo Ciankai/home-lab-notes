@@ -66,4 +66,7 @@ Although this is the first VM I’m creating for the lab, it will eventually wor
 ---
 
 ## Screenshots
+![Ubuntu Installation Summary](images/Ubuntu-Summary.png)
+![Ubuntu Login Screen](images/Ubuntu-Login.png)
+
 
