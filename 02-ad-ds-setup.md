@@ -65,7 +65,7 @@ I also ran `Get-Service DNS` to verify the status.
 ![Status](images/TS10-StatusRunning.png)
 
 After checking yet again on the client side and failing to resolve it, I ran `ipconfig` to check what IP address was under DNS Servers. It was still showing 192.168.191.2 and hadn't updated after I manually changed it. 
-[Wrong DNS address](images/TS12-WrongIPDNS.png)
+![Wrong DNS address](images/TS12-WrongIPDNS.png)
 
 Sometimes the simplest approach is the most effective solution. I simply restarted the client because sometimes Windows caches network settings stubbornly until reboot. I then ran the test again. 
 (As a side note, I believe `ipconfig /release
@@ -73,14 +73,14 @@ ipconfig /renew
 ipconfig /flushdns
 nslookup homelab.local
 ` might've solved the issue without the need to reboot. Forcing Windows to renew DNS and IP. But restarting worked. 
-[Successful ping test to homelab.local](images/TS16-SuccessPingTest.png)
-[Successful DNS resolution](images/TS13-nslookup.png)
+![Successful ping test to homelab.local](images/TS16-SuccessPingTest.png)
+![Successful DNS resolution](images/TS13-nslookup.png)
 
 And as you can see, I was able to successfully join the client to the 'homelab.local' domain. 
-[Successfully joined the domain](images/TS15-welcomeMes.png)
+![Successfully joined the domain](images/TS15-welcomeMes.png)
 
 I then checked server-side to verify the user account has joined. 
-[Verifying user joined successfully](images/TS16-UserVerify.png)
+![Verifying user joined successfully](images/TS16-UserVerify.png)
 
 
 
