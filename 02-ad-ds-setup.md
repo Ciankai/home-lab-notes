@@ -73,7 +73,8 @@ ipconfig /renew
 ipconfig /flushdns
 nslookup homelab.local
 ` might've solved the issue without the need to reboot. Forcing Windows to renew DNS and IP. But restarting worked. 
-[Successful DNS resolution](TS13-nslookup.png)
+[Successful ping test to homelab.local](images/TS16-SuccessPingTest.png)
+[Successful DNS resolution](images/TS13-nslookup.png)
 
 And as you can see, I was able to successfully join the client to the 'homelab.local' domain. 
 [Successfully joined the domain](images/TS15-welcomeMes.png)
