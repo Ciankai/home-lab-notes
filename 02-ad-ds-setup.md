@@ -52,14 +52,14 @@ Following this, I proceeded to test the connection with the `ping` command. The 
 ![Ping test](images/Troubleshooting3.png)
 
 Given that connection was possible between both, I went to the server VM and double checked things were in order. This includes checking the DNS Server is installed, up and running. In DNS manager, expanding the homelab.local file to check that 'win-server-ad' was displaying the correct IP address and Type Host(A).
-![DNS Installed](images/DNSTicked.png)
-![Verify DNS is running](images/VerifyingDNSRunning.png)
+![DNS Installed](images/TS4-DNSTicked.png)
+![Verify DNS is running](images/TS7-VerifyingDNSRunning.png)
 
 Meanwhile, on the client side I ran `ipconfig /flushdns` to clear the cache, and tried to lookup homelab.local with `nslookup`. However, it still was failing to locate it. 
-![Failing to locate domain](TS6-DNSUnknown.png)
+![Failing to locate domain](images/TS6-DNSUnknown.png)
 
 At this point I decided to open powershell on the server side to double check a few things. I used `Get-ADDomain` to retrieve information about the Active Directory domain the computer is joined to and `|` to pass the output to the next command `Select-Object DNSRoot`, which selects only the DNSRoot property from the domain information.
-![Powershell commands](TS9-images/ConfirmADDSname.png)
+![Powershell commands](images/TS9-ConfirmADDSname.png)
 
 I also ran `Get-Service DNS` to verify the status. 
 ![Status](images/TS10-StatusRunning.png)
