@@ -27,7 +27,7 @@ This server will act as the domain controller for my home lab, providing central
 1. Installed Windows Server 2019 using the ISO in VMware.
 2. Allowed the server to be discoverable by PC's on the same network. 
 3. Set the hostname to `WIN-SERVER-AD`.  
-4. Configured a **static IP address** for the server (e.g., 192.168.191.10).  
+4. Configured a **static IP address** for the server (192.168.191.10).  
 5. Installed the **Active Directory Domain Services** role via Server Manager.  
 6. Promoted the server to a **Domain Controller**, creating a new forest and domain (homelab.local).  
 7. Configured **DNS** during the promotion wizard.  
