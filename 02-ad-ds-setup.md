@@ -100,7 +100,7 @@ I then checked server-side to verify the user account has joined.
 ---
 
 ## Additional Screenshots
-![Setting IP](images/IPv4-Settings.png)
+![Setting IP on server](images/IPv4-Settings.png)
 ![Initial dashboard](images/WServ-Install.png)  
 ![AD DS Installation](images/ADDS.png)  
 ![Promote to Domain Controller](images/Promote-server.png)
